@@ -1,4 +1,4 @@
-enum typoSize {
+export enum headingSize {
   h1 = "h1",
   h2 = "h2",
   h3 = "h3",
@@ -6,4 +6,11 @@ enum typoSize {
   h5 = "h5",
   h6 = "h6",
 }
-export default typoSize;
+export enum textSize {
+  p1 = "p1",
+  p2 = "p2",
+  p3 = "p3",
+  p4 = "p4",
+  p5 = "p5",
+  p6 = "p6",
+}

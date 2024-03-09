@@ -1,9 +1,9 @@
 import cx from "classnames";
-import styles from "./heading.module.scss";
-import typoSize from "../../utils/typo";
+import styles from "./typo.module.scss";
+import { headingSize } from "../../utils/typo";
 
 interface headingProps {
-  size: typoSize;
+  size: headingSize;
   weight?: string;
   children?: React.ReactNode;
 }

@@ -1,0 +1,1 @@
+export const BASE_URL : string = "https://frontend-test-assignment-api.abz.agency/api/v1"
